@@ -4,6 +4,42 @@ class student(
 	private string stname;
 	private int stnum;
 	
+	body {
+    CREATE DATABASE task;
+    USE task;
+    CREATE TABLE base(stname varchar(14), Surname varchar(14), stnum float);
+    SELECT * FROM base;
+    values
+    ("Sam;Mcfarlen;5441")
+
+{
+    CREATE TABLE base(stname varchar(14), Surname varchar(14), stnum float);
+    SELECT * FROM base;
+    values
+        ("Kate;Lene;7442")
+}
+{
+    CREATE TABLE base(stname varchar(14), Surname varchar(14), stnum float);
+    SELECT * FROM base;
+    values
+        ("Keletso;Make;5443")
+
+}
+{
+    CREATE TABLE base(stname varchar(14), Surname varchar(14), stnum float);
+    SELECT * FROM base;
+    values
+        ("Khutso;Ruvhono;5444")
+}
+{
+    CREATE TABLE base(stname varchar(14), Surname varchar(14), stnum float);
+    SELECT * FROM base;
+    values("Lila;Macansi;5445")
+}
+
+}
+
+	
 	Student(string surname, String stname, int stnum){
 		this.stsurname = stsurname;
 		this.stname = stname;
